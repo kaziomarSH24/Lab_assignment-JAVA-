@@ -1,3 +1,9 @@
+
+/*Create a class BankAccount with attributes such as account number and balance. Implement a
+constructor to initialize these attributes and provide methods for deposit, withdrawal, and
+checking the balance.
+*/
+
 class BankAccount {
     private int acNum;
     private double balance;
