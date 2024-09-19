@@ -4,7 +4,7 @@ class Employee {
     private double salary;
 
     public Employee(String name, int id, double salary) {
-        this.name = (name != null && !name.isEmpty()) ? name : "Unknown";
+        this.name = (name != null && !name.isEmpty()) ? name : "Abir";
         this.id = (id > 0) ? id : 1000;
         this.salary = (salary > 0) ? salary : 30000;
     }
@@ -65,12 +65,12 @@ class Manager extends Employee {
 
 public class Main {
     public static void main(String[] args) {
-        Employee emp1 = new Employee("Alice", 101, 50000);
+        Employee emp1 = new Employee("Tahsan", 101, 50000);
         emp1.displayInfo();
 
         System.out.println("--------------------");
 
-        Manager mgr1 = new Manager("Bob", 102, 80000, "IT");
+        Manager mgr1 = new Manager("Kazi Omar", 102, 80000, "IT");
         mgr1.displayInfo();
     }
 }
